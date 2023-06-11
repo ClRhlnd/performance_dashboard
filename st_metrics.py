@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+st.header ('academic performance')
 st.metric(label="Score", value="70 Points", delta="1.2 Points")
 
 df = pd.DataFrame({
